@@ -107,9 +107,6 @@ func (w *Writer) setOptions(opt Options) {
 		w.Maxsize = opt.Maxsize
 	}
 
-	w.Daily = opt.Daily
-	w.Rotate = opt.Rotate
-
 	if opt.Maxdays > 0 {
 		w.Maxdays = opt.Maxdays
 	}
